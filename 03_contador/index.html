@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>contador</title>
+</head>
+<body>
+    <!-- Tarjeta -->
+    <div class="container-fluid d-flex justify-content-center">
+        <div class="card mt-2" style="width: 20rem;">
+            <img src="./img/contador.jpg" class="card-img-top" alt="...">
+            <div class="card-body bg-primary">
+              <p class="card-text text-center text-white blockquote">Este es un ejemplo de uso de javascript con bootstrap 5,  para simular un contador manual de personas</p>
+              <div class="col d-flex justify-content-center">
+                <button type="button" class="btn-lg btn-dark" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Iniciar Contador</button>
+              </div>
+              
+            </div>
+          </div>
+    </div>
+    
+  
+  <!-- Modal -->
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content bg-dark">
+        <div class="modal-header">
+          <h5 class="modal-title text-white " id="staticBackdropLabel">Contador de personas</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <h2 id="numeroCuenta" class="display-2 d-flex text-white justify-content-center"></h2>
+        </div>
+        <div class="modal-footer d-flex justify-content-center">
+          <button type="button" onclick='document.getElementById("numeroCuenta").innerHTML = restar();' class="btn-sm btn-primary">Restar 1</button>
+          <hr>
+          <button type="button" onclick='document.getElementById("numeroCuenta").innerHTML = sumar();' class="btn-lg btn-success">Sumar 1</button>
+          <hr>
+          <button type="button" onclick='document.getElementById("numeroCuenta").innerHTML = reset();' class="btn-sm btn-danger">Resetear</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    <script src="./js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

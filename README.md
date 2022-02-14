@@ -1,6 +1,11 @@
 # Aprendiendo Javascript!
 
-<center>![Night Coding](https://i.pinimg.com/originals/e4/26/70/e426702edf874b181aced1e2fa5c6cde.gif)</center>
+![Night Coding](https://practicajavascript.netlify.app/coding.gif#center)
+
+img[src*='#center'] {
+    display: block;
+    margin: auto;
+}
 
 Hola! Mi nombre es Jorge Paez y me encuentro aprendiendo Javascript con [CODERHOUSE].
 En este repositorio, documentaré mis practicas y pruebas tanto propias del curso como externas al mismo.

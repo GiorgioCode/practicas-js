@@ -27,3 +27,17 @@ Generar un simulador de contador manual de personas, implementando bootstrap 5 e
 
 ***
 
+# N° 04 - Ciclos
+ejemplo uso de ciclo while (mantener pregunta mientras no se acierta numero oculto)
+
+[VER CÓDIGO](https://github.com/GiorgioCode/practicas-js/tree/master/04_ciclos) - [VER EJEMPLO](https://practicajavascript.netlify.app/04_ciclos/)
+
+***
+
+# N° 05 - Desafio complementario 1 - CICLOS
+Generar una implementacion de un ciclo FOR o WHILE
+En este caso, utilizó un SWITCH para elegir si ejecutar un generador de tablas de multiplicar o un generador de secuencias de fibonacci.
+
+[VER CÓDIGO](https://github.com/GiorgioCode/practicas-js/tree/master/05_desafio_complementario_1) - [VER EJEMPLO](https://practicajavascript.netlify.app/05_desafio_complementario_1/)
+
+***

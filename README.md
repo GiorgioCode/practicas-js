@@ -41,3 +41,15 @@ En este caso, utilizó un SWITCH para elegir si ejecutar un generador de tablas 
 [VER CÓDIGO](https://github.com/GiorgioCode/practicas-js/tree/master/05_desafio_complementario_1) - [VER EJEMPLO](https://practicajavascript.netlify.app/05_desafio_complementario_1/)
 
 ***
+# N° 06 - Funciones
+sumar dos numeros pedidos al usuario, usando una funcion.
+
+[VER CÓDIGO](https://github.com/GiorgioCode/practicas-js/tree/master/06_funciones) - [VER EJEMPLO](https://practicajavascript.netlify.app/06_funciones)
+
+***
+# N° 07 - Funciones flecha
+sumar y restar numeros usando funciones flecha.
+
+[VER CÓDIGO](https://github.com/GiorgioCode/practicas-js/tree/master/07_funciones_flecha) - [VER EJEMPLO](https://practicajavascript.netlify.app/07_funciones_flecha)
+
+***

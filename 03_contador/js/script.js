@@ -2,20 +2,20 @@ let contador = 0;
 parseInt(contador);
 
 function sumar() {
-  contador = contador+1;
-  return contador;
+	contador = contador + 1;
+	return contador;
 }
 
 function restar() {
-    if (contador != 0) {
-        contador = contador-1;
-    } else {
-        return contador;
-    }
-  return contador;
+	if (contador != 0) {
+		contador = contador - 1;
+	} else {
+		return contador;
+	}
+	return contador;
 }
 
 function reset() {
-    contador = 0;
-    return contador;
-  }
+	contador = 0;
+	return contador;
+}

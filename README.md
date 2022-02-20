@@ -53,3 +53,9 @@ sumar y restar numeros usando funciones flecha.
 [VER CÓDIGO](https://github.com/GiorgioCode/practicas-js/tree/master/07_funciones_flecha) - [VER EJEMPLO](https://practicajavascript.netlify.app/07_funciones_flecha)
 
 ***
+# N° 08 - Desafio Entregable 1 - Simulador Interactivo
+Se realizó un calculador de dosis de medicamentos.
+
+[VER CÓDIGO](https://github.com/GiorgioCode/practicas-js/tree/master/08_desafio_entregable_1_simulador/) - [VER EJEMPLO](https://practicajavascript.netlify.app/08_desafio_entregable_1_simulador/)
+
+***

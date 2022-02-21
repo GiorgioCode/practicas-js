@@ -59,3 +59,9 @@ Se realizó un calculador de dosis de medicamentos.
 [VER CÓDIGO](https://github.com/GiorgioCode/practicas-js/tree/master/08_desafio_entregable_1_simulador/) - [VER EJEMPLO](https://practicajavascript.netlify.app/08_desafio_entregable_1_simulador/)
 
 ***
+# N° 09 - Práctica Independiente - FizzBuzz
+Se realizó un generador de sucesión FizzBuzz.
+
+[VER CÓDIGO](https://github.com/GiorgioCode/practicas-js/tree/master/09_FizzBuzz) - [VER EJEMPLO](https://practicajavascript.netlify.app/09_FizzBuzz)
+
+***

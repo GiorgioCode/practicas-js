@@ -9,7 +9,9 @@
 #areaImpresion {
 	background-color: white;
 }
-
+#encabezado {
+	padding-top: 5vh;
+}
 /*GRADIENTE ANIMADO TEXTO*/
 .textogradiente {
 	color: #7431dd;

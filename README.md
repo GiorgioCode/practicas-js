@@ -88,3 +88,35 @@ practicas en clase de Objetos, Clases y bucle FOR IN
 [VER CÓDIGO](https://github.com/GiorgioCode/practicas-js/tree/master/10_objetos) - [VER EJEMPLO](https://practicajavascript.netlify.app/10_objetos)
 
 ---
+
+# N° 10 - Objetos, Clases, FOR IN, Funcion Constructora, Metodos y Funciones
+
+practicas en clase de Objetos, Clases y bucle FOR IN
+
+[VER CÓDIGO](https://github.com/GiorgioCode/practicas-js/tree/master/10_objetos) - [VER EJEMPLO](https://practicajavascript.netlify.app/10_objetos)
+
+---
+
+# N° 11 - Práctica Arrays
+
+practica de Arrays y Arrays de objetos
+
+[VER CÓDIGO](https://github.com/GiorgioCode/practicas-js/tree/master/11-arrays) - [VER EJEMPLO](https://practicajavascript.netlify.app/11_arrays)
+
+---
+
+# N° 12 - Presupuesto automáticco [EN PROCESO]
+
+Práctica para generar una aplicacion de presupuesto de diseño web automático.
+
+[VER CÓDIGO](https://github.com/GiorgioCode/practicas-js/tree/master/12_presupuestador) - [VER EJEMPLO](https://practicajavascript.netlify.app/12_presupuestador)
+
+---
+
+# N° 13 - Desafío Complementario - Incorporar Arrays
+
+En este desafio complementario, se ha desarrollado una aplicacion simple de lista de compras, en donde se utilizan objetos y arrays.
+
+[VER CÓDIGO](https://github.com/GiorgioCode/practicas-js/tree/master/13_Desafio_Complementario_incorporar_arrays/) - [VER EJEMPLO](https://practicajavascript.netlify.app/13_Desafio_Complementario_incorporar_arrays/)
+
+---

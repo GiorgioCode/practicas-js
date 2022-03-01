@@ -88,6 +88,7 @@ console.log('**      find                           **');
 console.log('**      some                           **');
 console.log('**      every                          **');
 console.log('**      reduce                         **');
+console.log('**      sort                           **');
 console.log('**                                     **');
 console.log('*****************************************');
 console.log('      ');
@@ -248,3 +249,59 @@ console.log('la suma de los precios de los autos importados es: '+sumador1)
 //ahora arrancamos sumando los precios de los autos nacionales a partir del resultado de sumador1
 let sumaTotal = autosNacionales.reduce((sumas2, autosNac) => sumas2 + autosNac.precio,sumador1)
 console.log('la suma de los precios de los autos importados mas los nacionales es: '+sumaTotal)
+
+console.log('      ');
+console.log('*****************************************');
+console.log('** FUNCIONES ORDEN SUPERIOR (sort)    **');
+console.log('*****************************************');
+console.log('      ');
+//El método sort() nos permite reordenar un array según un criterio que definamos. 
+//Recibe una función de comparación por parámetro que, a la vez, recibe dos elementos del array. 
+//La función retorna un valor numérico (1, -1, 0) que indica qué elemento se posiciona antes o después.
+//CUIDADO! METODO DESTRUCTIVO, MODIFICA EL ARRAY ORIGINAL.
+
+arrayNumeros = [1, 4, 33, 7, -7, 2, 90, 54]
+console.log(arrayNumeros) //muestra el contenido del array
+arrayNumeros.sort() //si se llama a sort sin parametros, ordena de menor a mayor SEGUN SU VALOR DE UNICODE
+console.log(arrayNumeros) //muestra el contenido ordenado del array
+//SE PUEDE VER QUE EL ORDEN NO ES NUMERICO
+arrayNumeros.sort((a,b) => { //entonces se debe controlar con una funcion
+	if (a < b) {
+		return -1;
+	} 
+	if (a > b) {
+		return 1;
+	}
+	return 0
+})
+console.log(arrayNumeros) //ahora si se observa el array ordenado por su valor
+
+//otra forma simplificada de escribirlo:
+console.log('******** sort simplificado orden ascendente ********');
+arrayNumeros2 = [1, 4, 33, 7, -7, 2, 90, 54]
+arrayNumeros2.sort((a,b) => a-b); //para orden ascendente
+console.log(arrayNumeros2)
+console.log('******** sort simplificado orden descendente ********');
+arrayNumeros3 = [1, 4, 33, 7, -7, 2, 90, 54]
+arrayNumeros3.sort((a,b) => b-a); //para orden descendente
+console.log(arrayNumeros3)
+console.log('******** sort de array de objetos ********');
+
+const autos = [
+	{id: 1, titulo: 'Fiat', precio:180000,  stock:5, descuento:20},
+	{id: 2, titulo: 'Renault', precio:200000,  stock:7, descuento:30},
+	{id: 3, titulo: 'Ford', precio:300000,  stock:10, descuento:30},
+	{id: 4, titulo: 'Chevrolet', precio:400000,  stock:15, descuento:20},
+	{id: 5, titulo: 'Toyota', precio:1000000,  stock:6, descuento:20},
+	{id: 6, titulo: 'Mitsubishi', precio:600000,  stock:7, descuento:10},
+	{id: 7, titulo: 'Nissan', precio:300000,  stock:8, descuento:15},
+	{id: 8, titulo: 'Volvo', precio:400000,  stock:20, descuento:20},
+]
+
+console.table(autos)
+console.log('******** sort ascentente por precio ********');
+autos.sort((a, b) => a.precio - b.precio); //orden ascentente por precio
+console.table(autos)
+console.log('******** sort ascentente por stock ********');
+autos.sort((a, b) => a.stock - b.stock); //orden ascentente segun stock
+console.table(autos)

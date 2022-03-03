@@ -1,0 +1,53 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+.fondonegro {
+	background-color: #000;
+}
+#areaImpresion {
+	background-color: white;
+}
+#encabezado {
+	padding-top: 5vh;
+}
+/*GRADIENTE ANIMADO TEXTO*/
+.textogradiente {
+	color: #7431dd;
+	background: linear-gradient(
+		to right,
+		#dd31dd 20%,
+		#7431dd 40%,
+		#0082e6 60%,
+		#dd31dd 80%
+	);
+	background-size: 200% auto;
+	text-decoration: bold;
+	color: #000;
+	background-clip: text;
+	text-fill-color: transparent;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: shine 5s linear infinite;
+}
+
+@keyframes shine {
+	to {
+		background-position: 200% center;
+	}
+}
+
+.bd-placeholder-img {
+	font-size: 1.125rem;
+	text-anchor: middle;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+}
+
+@media (min-width: 768px) {
+	.bd-placeholder-img-lg {
+		font-size: 3.5rem;
+	}
+}

@@ -127,3 +127,11 @@ Practica de funciones de Orden superior
 [VER CÓDIGO](https://github.com/GiorgioCode/practicas-js/tree/master/14_funciones_orden_superior/) - [VER EJEMPLO](https://practicajavascript.netlify.app/14_funciones_orden_superior/)
 
 ---
+# N° 15 - Practica Independiente - Lista de Pendientes
+practica desarrollada por Bluuweb en: https://www.youtube.com/watch?v=DEbNCqe2e2U
+
+Practica de manejo de DOM, addEventListener, LocalStorage, ClassList, DOMContentLoaded, createDocumentFragment, HTML Template, querySelector, JSON.stringify, cloneNode, appendChild, stopPropagation
+
+[VER CÓDIGO](https://github.com/GiorgioCode/practicas-js/tree/master/15_Lista_pendientes/) - [VER EJEMPLO](https://practicajavascript.netlify.app/15_Lista_pendientes/)
+
+---

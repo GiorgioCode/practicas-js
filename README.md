@@ -135,3 +135,9 @@ Practica de manejo de DOM, addEventListener, LocalStorage, ClassList, DOMContent
 [VER CÓDIGO](https://github.com/GiorgioCode/practicas-js/tree/master/15_Lista_pendientes/) - [VER EJEMPLO](https://practicajavascript.netlify.app/15_Lista_pendientes/)
 
 ---
+# N° 16 - Practica manejo de DOM
+Práctica manejo de DOM
+
+[VER CÓDIGO](https://github.com/GiorgioCode/practicas-js/tree/master/16_DOM/) - [VER EJEMPLO](https://practicajavascript.netlify.app/16_DOM/)
+
+---

@@ -83,7 +83,7 @@ class Personaje {
 		
 	}
 	mostrarDatos(){
-		console.log(this.nombre, "tiene: ",this.vida, " de vida y ",this.poder, "de poder.")
+		console.log(this.nombre, "EMPATEne: ",this.vida, " de vida y ",this.poder, "de poder.")
 	}
 }
 

@@ -141,3 +141,9 @@ Práctica manejo de DOM
 [VER CÓDIGO](https://github.com/GiorgioCode/practicas-js/tree/master/16_DOM/) - [VER EJEMPLO](https://practicajavascript.netlify.app/16_DOM/)
 
 ---
+# N° 18 - Desafío Complementario - Eventos
+Práctica de eventos: se realizó un TA TE TI, interactuando con el DOM, cuando el usuario clickea en las celdas.
+
+[VER CÓDIGO](https://github.com/GiorgioCode/practicas-js/tree/master/18_Desafio_Complementario_Eventos/) - [VER EJEMPLO](https://practicajavascript.netlify.app/18_Desafio_Complementario_Eventos/)
+
+---

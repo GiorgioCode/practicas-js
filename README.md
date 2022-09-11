@@ -120,6 +120,7 @@ En este desafio complementario, se ha desarrollado una aplicacion simple de list
 [VER CÓDIGO](https://github.com/GiorgioCode/practicas-js/tree/master/13_Desafio_Complementario_incorporar_arrays/) - [VER EJEMPLO](https://practicajavascript.netlify.app/13_Desafio_Complementario_incorporar_arrays/)
 
 ---
+
 # N° 14 - Funciones de Orden superior: forEach, map, filter, find, some, every, reduce, sort.
 
 Practica de funciones de Orden superior
@@ -127,7 +128,9 @@ Practica de funciones de Orden superior
 [VER CÓDIGO](https://github.com/GiorgioCode/practicas-js/tree/master/14_funciones_orden_superior/) - [VER EJEMPLO](https://practicajavascript.netlify.app/14_funciones_orden_superior/)
 
 ---
+
 # N° 15 - Practica Independiente - Lista de Pendientes
+
 practica desarrollada por Bluuweb en: https://www.youtube.com/watch?v=DEbNCqe2e2U
 
 Practica de manejo de DOM, addEventListener, LocalStorage, ClassList, DOMContentLoaded, createDocumentFragment, HTML Template, querySelector, JSON.stringify, cloneNode, appendChild, stopPropagation
@@ -135,15 +138,26 @@ Practica de manejo de DOM, addEventListener, LocalStorage, ClassList, DOMContent
 [VER CÓDIGO](https://github.com/GiorgioCode/practicas-js/tree/master/15_Lista_pendientes/) - [VER EJEMPLO](https://practicajavascript.netlify.app/15_Lista_pendientes/)
 
 ---
+
 # N° 16 - Practica manejo de DOM
+
 Práctica manejo de DOM
 
 [VER CÓDIGO](https://github.com/GiorgioCode/practicas-js/tree/master/16_DOM/) - [VER EJEMPLO](https://practicajavascript.netlify.app/16_DOM/)
 
 ---
+
 # N° 18 - Desafío Complementario - Eventos
+
 Práctica de eventos: se realizó un TA TE TI, interactuando con el DOM, cuando el usuario clickea en las celdas.
 
 [VER CÓDIGO](https://github.com/GiorgioCode/practicas-js/tree/master/18_Desafio_Complementario_Eventos/) - [VER EJEMPLO](https://practicajavascript.netlify.app/18_Desafio_Complementario_Eventos/)
+
+---
+
+# N° 20 - Practica Independiente - Verificador año bisiesto
+
+En funcion de un año ingresado en un input, se verifica que el año sea o no bisiesto.
+[VER CÓDIGO](https://github.com/GiorgioCode/practicas-js/tree/master/20_Anio_bisiesto/) - [VER EJEMPLO](https://practicajavascript.netlify.app/20_Anio_bisiesto/)
 
 ---
